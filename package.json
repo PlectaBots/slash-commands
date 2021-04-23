@@ -1,0 +1,34 @@
+{
+  "name": "@plectabots/slash-commands",
+  "version": "0.0.1",
+  "description": "slash command inplementation",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo -1",
+    "install": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlectaBots/slash-commands.git"
+  },
+  "keywords": [
+    "slash-commands",
+    "discord-interaction"
+  ],
+  "contributors": [{
+    "name": "JastLucy",
+    "url": "https://github.com/jastLucy"
+  }],
+  "author": "Plectabots",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PlectaBots/slash-commands/issues"
+  },
+  "homepage": "https://github.com/PlectaBots/slash-commands#readme",
+  "dependencies": {
+    "discord.js": "github:discordjs/discord.js"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.41"
+  }
+}
